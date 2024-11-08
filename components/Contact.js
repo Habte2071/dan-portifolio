@@ -63,6 +63,7 @@ const Contact = () => {
 										<label className="uppercase text-sm py-2">Name</label>
 										<input
 											type="text"
+required
 											className="border-2 rounded-lg p-3 flex border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#1E90FF] transition duration-200"
 											name="name"
 										/>
@@ -71,6 +72,7 @@ const Contact = () => {
 										<label className="uppercase text-sm py-2">Phone Number</label>
 										<input
 											type="text"
+required
 											className="border-2 rounded-lg p-3 flex border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#1E90FF] transition duration-200"
 											name="phone"
 										/>
@@ -80,6 +82,7 @@ const Contact = () => {
 									<label className="uppercase text-sm py-2">Email</label>
 									<input
 										type="email"
+required
 										className="border-2 rounded-lg p-3 flex border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#1E90FF] transition duration-200"
 										name="email"
 									/>
@@ -88,6 +91,7 @@ const Contact = () => {
 									<label className="uppercase text-sm py-2">Subject</label>
 									<input
 										type="text"
+required
 										className="border-2 rounded-lg p-3 flex border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#1E90FF] transition duration-200"
 										name="subject"
 									/>
@@ -97,6 +101,7 @@ const Contact = () => {
 									<textarea
 										className="border-2 rounded-lg p-3 border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#1E90FF] transition duration-200"
 										rows="10"
+required
 										name="message"
 									></textarea>
 								</div>
